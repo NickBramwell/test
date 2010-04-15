@@ -1,0 +1,18 @@
+// JavaService.idl : IDL source for JavaService
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (JavaService.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(35C38916-6AFF-48EA-BD29-0AF477980FFA),
+	version(1.0),
+	helpstring("JavaService 1.0 Type Library")
+]
+library JavaServiceLib
+{
+	importlib("stdole2.tlb");
+};
